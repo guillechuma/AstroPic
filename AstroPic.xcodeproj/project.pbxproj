@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4433E3A288F496D004A4693 /* AstroPicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4433E39288F496D004A4693 /* AstroPicApp.swift */; };
+		B4433E3C288F496D004A4693 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4433E3B288F496D004A4693 /* ContentView.swift */; };
+		B4433E3E288F4970004A4693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4433E3D288F4970004A4693 /* Assets.xcassets */; };
+		B4433E41288F4970004A4693 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4433E40288F4970004A4693 /* Preview Assets.xcassets */; };
+		B4433E4C288F4A2D004A4693 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4433E4B288F4A2D004A4693 /* NetworkManager.swift */; };
+		B4433E4E288F4B42004A4693 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4433E4D288F4B42004A4693 /* Constants.swift */; };
+		B4433E50288F4C5D004A4693 /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4433E4F288F4C5D004A4693 /* URLHelper.swift */; };
+		B4433E52288F4EF4004A4693 /* PickOfTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4433E51288F4EF4004A4693 /* PickOfTodayView.swift */; };
+		B4433E54288F4FEE004A4693 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4433E53288F4FEE004A4693 /* PhotoInfo.swift */; };
+		B4433E562891469E004A4693 /* SelectDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4433E552891469E004A4693 /* SelectDateView.swift */; };
+		B4433E582891589B004A4693 /* LoadingAnimationBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4433E572891589B004A4693 /* LoadingAnimationBox.swift */; };
+		B4433E5A28915DB2004A4693 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4433E5928915DB2004A4693 /* ImageDetailView.swift */; };
+		B4433E5D28917D52004A4693 /* SwiftfulLoadingIndicators in Frameworks */ = {isa = PBXBuildFile; productRef = B4433E5C28917D52004A4693 /* SwiftfulLoadingIndicators */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4433E36288F496D004A4693 /* AstroPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4433E39288F496D004A4693 /* AstroPicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroPicApp.swift; sourceTree = "<group>"; };
+		B4433E3B288F496D004A4693 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4433E3D288F4970004A4693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4433E40288F4970004A4693 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4433E4B288F4A2D004A4693 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B4433E4D288F4B42004A4693 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B4433E4F288F4C5D004A4693 /* URLHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
+		B4433E51288F4EF4004A4693 /* PickOfTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickOfTodayView.swift; sourceTree = "<group>"; };
+		B4433E53288F4FEE004A4693 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		B4433E552891469E004A4693 /* SelectDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateView.swift; sourceTree = "<group>"; };
+		B4433E572891589B004A4693 /* LoadingAnimationBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationBox.swift; sourceTree = "<group>"; };
+		B4433E5928915DB2004A4693 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4433E33288F496D004A4693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4433E5D28917D52004A4693 /* SwiftfulLoadingIndicators in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4433E2D288F496D004A4693 = {
+			isa = PBXGroup;
+			children = (
+				B4433E38288F496D004A4693 /* AstroPic */,
+				B4433E37288F496D004A4693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4433E37288F496D004A4693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4433E36288F496D004A4693 /* AstroPic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4433E38288F496D004A4693 /* AstroPic */ = {
+			isa = PBXGroup;
+			children = (
+				B4433E39288F496D004A4693 /* AstroPicApp.swift */,
+				B4433E3B288F496D004A4693 /* ContentView.swift */,
+				B4433E4A288F49F3004A4693 /* ViewModels */,
+				B4433E49288F49E6004A4693 /* Views */,
+				B4433E47288F49C4004A4693 /* Model */,
+				B4433E3D288F4970004A4693 /* Assets.xcassets */,
+				B4433E3F288F4970004A4693 /* Preview Content */,
+			);
+			path = AstroPic;
+			sourceTree = "<group>";
+		};
+		B4433E3F288F4970004A4693 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4433E40288F4970004A4693 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4433E47288F49C4004A4693 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4433E53288F4FEE004A4693 /* PhotoInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4433E49288F49E6004A4693 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4433E51288F4EF4004A4693 /* PickOfTodayView.swift */,
+				B4433E572891589B004A4693 /* LoadingAnimationBox.swift */,
+				B4433E552891469E004A4693 /* SelectDateView.swift */,
+				B4433E5928915DB2004A4693 /* ImageDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4433E4A288F49F3004A4693 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B4433E4B288F4A2D004A4693 /* NetworkManager.swift */,
+				B4433E4D288F4B42004A4693 /* Constants.swift */,
+				B4433E4F288F4C5D004A4693 /* URLHelper.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4433E35288F496D004A4693 /* AstroPic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4433E44288F4970004A4693 /* Build configuration list for PBXNativeTarget "AstroPic" */;
+			buildPhases = (
+				B4433E32288F496D004A4693 /* Sources */,
+				B4433E33288F496D004A4693 /* Frameworks */,
+				B4433E34288F496D004A4693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroPic;
+			packageProductDependencies = (
+				B4433E5C28917D52004A4693 /* SwiftfulLoadingIndicators */,
+			);
+			productName = AstroPic;
+			productReference = B4433E36288F496D004A4693 /* AstroPic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4433E2E288F496D004A4693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B4433E35288F496D004A4693 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B4433E31288F496D004A4693 /* Build configuration list for PBXProject "AstroPic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4433E2D288F496D004A4693;
+			packageReferences = (
+				B4433E5B28917D52004A4693 /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators" */,
+			);
+			productRefGroup = B4433E37288F496D004A4693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4433E35288F496D004A4693 /* AstroPic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4433E34288F496D004A4693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4433E41288F4970004A4693 /* Preview Assets.xcassets in Resources */,
+				B4433E3E288F4970004A4693 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4433E32288F496D004A4693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4433E562891469E004A4693 /* SelectDateView.swift in Sources */,
+				B4433E54288F4FEE004A4693 /* PhotoInfo.swift in Sources */,
+				B4433E582891589B004A4693 /* LoadingAnimationBox.swift in Sources */,
+				B4433E50288F4C5D004A4693 /* URLHelper.swift in Sources */,
+				B4433E4C288F4A2D004A4693 /* NetworkManager.swift in Sources */,
+				B4433E52288F4EF4004A4693 /* PickOfTodayView.swift in Sources */,
+				B4433E3C288F496D004A4693 /* ContentView.swift in Sources */,
+				B4433E3A288F496D004A4693 /* AstroPicApp.swift in Sources */,
+				B4433E4E288F4B42004A4693 /* Constants.swift in Sources */,
+				B4433E5A28915DB2004A4693 /* ImageDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B4433E42288F4970004A4693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4433E43288F4970004A4693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4433E45288F4970004A4693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AstroPic/Preview Content\"";
+				DEVELOPMENT_TEAM = V5989ZE5QK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = guillechuma.AstroPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4433E46288F4970004A4693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AstroPic/Preview Content\"";
+				DEVELOPMENT_TEAM = V5989ZE5QK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = guillechuma.AstroPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4433E31288F496D004A4693 /* Build configuration list for PBXProject "AstroPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4433E42288F4970004A4693 /* Debug */,
+				B4433E43288F4970004A4693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4433E44288F4970004A4693 /* Build configuration list for PBXNativeTarget "AstroPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4433E45288F4970004A4693 /* Debug */,
+				B4433E46288F4970004A4693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4433E5B28917D52004A4693 /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulLoadingIndicators.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4433E5C28917D52004A4693 /* SwiftfulLoadingIndicators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4433E5B28917D52004A4693 /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators" */;
+			productName = SwiftfulLoadingIndicators;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B4433E2E288F496D004A4693 /* Project object */;
+}
