@@ -18,16 +18,24 @@ struct PickOfTodayView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 20) {
             
-            Button {
-                self.showSwitchDate.toggle()
-            } label: {
-                Image(systemName: "calendar")
-                Text("Switch Day")
-            }
-            .padding(.trailing)
-            .frame(maxWidth: .infinity, alignment: .trailing)
-            .popover(isPresented: $showSwitchDate) {
-                SelectDateView(manager: manager)
+            HStack {
+                Image("nasa_logo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 50)
+                Text("AstroPic")
+                    .font(.largeTitle.bold())
+                Button {
+                    self.showSwitchDate.toggle()
+                } label: {
+                    Image(systemName: "calendar")
+                    Text("Switch Day")
+                }
+                .padding(.trailing)
+                .frame(maxWidth: .infinity, alignment: .trailing)
+                .popover(isPresented: $showSwitchDate) {
+                    SelectDateView(manager: manager)
+                }
             }
 
             
